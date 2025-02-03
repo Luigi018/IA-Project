@@ -4,7 +4,7 @@
 - **Instances**: Graphs provided by the professor for algorithm execution.
 - **Report**: LaTeX files and the report in PDF format.
 - **requirements.txt**: Packages required to run the code.
-- **VertexCoverOptimized.py, VertexCoverSlow.py**: Code implementations developed for the project.
+- **VertexCoverOptimized.py, VertexCoverSlow.py, VertexCoverLimited.py**: Code implementations developed for the project.
 - **Instructions.txt**: Instructions for testing the code.
 
 ## Basic Commands
@@ -19,11 +19,15 @@ Or in the absence of the requirements.txt, install the packages with the followi
 
 Test the first code:
 
-    python3 VertexCoverSlow.py instances/vc_20_60_01.txt
+    python3 VertexCoverSlow.py Instances/vc_20_60_01.txt
 
 Test the second code:
 
-    python3 VertexCoverOptimized.py instances/vc_20_60_01.txt
+    python3 VertexCoverOptimized.py Instances/vc_20_60_01.txt
+
+Test the third code:
+
+    python3 VertexCoverLimited.py Instances/vc_20_60_01.txt
 
 Code output:
 - Best solution;
